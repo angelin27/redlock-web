@@ -26,7 +26,7 @@
 					<td><?=$row["ALAMAT"]?></td>
 					<td><?=$row["JABATAN"]?></td>
 				</tr>
-			    <?php }				
+			    <?php }			echo "<tr>Jumlah User: " . $result->num_rows . "</tr>";	
 			?>
 		</tbody>
 	</table>
